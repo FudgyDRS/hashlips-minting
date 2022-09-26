@@ -10,6 +10,11 @@ body {
   // Fullscreen background image example
   //background-image: url('../../images/background.jpg');
   //@apply bg-center bg-cover bg-fixed;
+
+  height: 100%;
+  background-image: url("../../images/bg.png");
+  background-position: center;
+  background-size: cover;
 }
 
 a, a:link, a:visited {
@@ -32,7 +37,7 @@ main {
 
 #logo {
   @apply m-auto;
-  @apply w-full;
+  width: 150px;
   @apply max-w-md;
 }
 

@@ -5,12 +5,12 @@ This is fixed soludtion for "all-in-one `ERC721` collections" released by HashLi
 
 ### Steps
 1. Open your fav terminal/dos
-2. Chnage directories to `hashlips-minting` root directory and input the command `yarn install`
+2. Change directories to `hashlips-minting` root directory and input the command `yarn install`
 3. Change directories to `hashlips-minting\smart-contract` and input the command `yarn install`
 4. Compile your smart contract by inputting the command `yarn compile`
 5. Change direcotries to `hashlips-minting\minting-dapp` and input the command `yarn install`
 6. Create a local build by inputting the command `yarn dev-server`
-7. Copy your solidity contract from `hashlips-minting\smart-contract\contracts\YourNftToken.sol`
+7. Copy your solidity contract from `hashlips-minting\smart-contract\contracts\PeculiarPugs.sol`
 8. Paste you code into your favorite solidity compiler (I reccomend [Remix](https://remix.ethereum.org) and deploy your contract.
 9. Copy your new contract address to `contractAddress` inside of `CollectionConfig.ts`
 10. After your satisfied input `ctrl + C` to end the server and input the command `yarn build`
